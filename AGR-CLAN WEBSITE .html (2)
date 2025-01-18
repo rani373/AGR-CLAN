@@ -1,15 +1,172 @@
-<html>
-   <head>
-       <title>Sample HTML Code</title>
-   </head>
-   <body>
-       <h1>Hello World</h1>
-   </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGR-CLAN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #2d3e50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            background-color: #1abc9c;
+            color: #fff;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #2d3e50;
+        }
+        footer {
+            background-color: #2d3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .content {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .card {
+            background-color: white;
+            width: 30%;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .card h3 {
+            color: #2d3e50;
+        }
+        .card p {
+            color: #666;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #2d3e50;
+        }
+        .social-links a:hover {
+            color: #1abc9c;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to AGR-CLAN</h1>
+    <p>Your ultimate gaming clan community</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#members">Members</a>
+    <a href="#events">Events</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#rules">Rules</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="about">
+        <h2>About AGR-CLAN</h2>
+        <p>AGR-CLAN is a community of dedicated gamers from all over the world. Our mission is to provide a competitive yet friendly environment for players to grow, improve, and share their passion for gaming.</p>
+    </section>
+
+    <section id="members">
+        <h2>Meet the Clan Leaders</h2>
+        <div class="content">
+            <div class="card">
+                <h3>Rani Harmouch</h3>
+                <p>Leader of AGR-CLAN, strategic and experienced in competitive gaming.</p>
+            </div>
+            <div class="card">
+                <h3>Anthony Merhej</h3>
+                <p>Co-leader, passionate about teamwork and creating a strong community.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <p>Join us for our next tournament or community event!</p>
+        <ul>
+            <li>January 20: Clan vs Clan Tournament</li>
+            <li>February 5: Gaming Night Live Stream</li>
+            <li>March 10: Annual AGR-CLAN Championship</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="image1.jpg" alt="Event 1">
+            <img src="image2.jpg" alt="Event 2">
+            <img src="image3.jpg" alt="Event 3">
+        </div>
+    </section>
+
+    <section id="rules">
+        <h2>Clan Rules</h2>
+        <ul>
+            <li>Respect all members, both in-game and on social media.</li>
+            <li>No toxic behavior or cheating.</li>
+            <li>Participate in events and support the clan.</li>
+            <li>Follow the leadership's decisions.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to join AGR-CLAN? Reach out to us!</p>
+        <p>Email: <a href="mailto:jxstgold4@gmail.com">jxstgold4@gmail.com</a></p>
+        <div class="social-links">
+            <a href="https://facebook.com/agrclan">Facebook</a>
+            <a href="https://twitter.com/agrclan">Twitter</a>
+            <a href="https://instagram.com/agrclan">Instagram</a>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 AGR-CLAN. All Rights Reserved.</p>
+</footer>
+
+</body>
 </html>
-<ALOASK-SEPARATE-EDITORS>html {
-   background: linear-gradient(to right, dodgerblue 0%, deepskyblue 100%);
-}
-h1{
-   color: white;
-}
-<ALOASK-SEPARATE-EDITORS>console.log('JavaScript Console');
